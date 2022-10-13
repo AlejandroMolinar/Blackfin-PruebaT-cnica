@@ -6,7 +6,6 @@
  ***********************************************************************************/
 
 public class Ejercicio1 {
-
     public static void main(String[] args) {
         
         for (int i = 0; i <= 100; i++) {
@@ -21,11 +20,9 @@ public class Ejercicio1 {
             //Multipo de 5
             else if(i%5 == 0){
                 System.out.println("CLE");
+            }else{
+                System.out.println(i);
             }
-            
         }
-
-
-
     }
 }
