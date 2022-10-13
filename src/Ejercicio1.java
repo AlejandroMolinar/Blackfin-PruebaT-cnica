@@ -5,6 +5,27 @@
  * tiempo, son múltiplos de 3 y 5, utiliza el combinado “VINCLE”.                  *
  ***********************************************************************************/
 
-git remote add origin https://github.com/AlejandroMolinar/Blackfin-PruebaTecnica.git
-git branch -M main
-git push -u origin main
+public class Ejercicio1 {
+
+    public static void main(String[] args) {
+        
+        for (int i = 0; i <= 100; i++) {
+            //Multipo de 5 y 3
+            if(i%5 == 0 && i%3 == 0){
+                System.out.println("VINCLE");
+            }
+            //Multipo de 3
+            else if(i%3 == 0){
+                System.out.println("VIN");
+            }
+            //Multipo de 5
+            else if(i%5 == 0){
+                System.out.println("CLE");
+            }
+            
+        }
+
+
+
+    }
+}
